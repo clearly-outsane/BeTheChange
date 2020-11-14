@@ -13,6 +13,7 @@ function App() {
                 <CssBaseline />
 
                 <Router>
+                    <div class='invalid-id'></div>
                     <Switch>
                         <Route path='/:id' children={<Item />} />
                     </Switch>

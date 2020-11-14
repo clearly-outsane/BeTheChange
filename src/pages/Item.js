@@ -1,5 +1,5 @@
 import React from 'react'
-import { useLocation } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import Grid from '@material-ui/core/Grid'
 import Typography from '@material-ui/core/Typography'
 import { GrFacebookOption } from 'react-icons/gr'
@@ -9,13 +9,8 @@ import { cover } from '../styles'
 import { Nav } from '../components'
 import data from '../data'
 
-function useQuery() {
-    return new URLSearchParams(useLocation().search)
-}
-
 const Item = () => {
-    let query = useQuery()
-    let id = query.get('id') | 1
+    let { id } = useParams()
     id = id - 1
     if (id > data.size) return <div>Not found</div>
 
