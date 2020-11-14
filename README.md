@@ -1,5 +1,5 @@
-#BeTheChange - HCI final project
+# BeTheChange - HCI final project
 
 To run do npm install and then npm start
 
-Dont by : Vinay Sateesh
+Done by : Vinay Sateesh
