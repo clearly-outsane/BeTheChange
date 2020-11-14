@@ -14,7 +14,7 @@ function App() {
 
                 <Router>
                     <Switch>
-                        <Route path='*/:id' children={<Item />} />
+                        <Route path='/item/:id' children={<Item />} />
                     </Switch>
                 </Router>
             </ThemeProvider>
