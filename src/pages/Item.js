@@ -15,7 +15,7 @@ function useQuery() {
 
 const Item = () => {
     let query = useQuery()
-    let id = query.get('id')
+    let id = query.get('id') | 1
     id = id - 1
     if (id > data.size) return <div>Not found</div>
 
