@@ -11,8 +11,18 @@ import data from '../data'
 
 const Item = () => {
     let { id } = useParams()
-    id = id - 1
-    if (id > data.size) return <div>Not found</div>
+    if (!(id in data)) {
+        return (
+            <Grid
+                container
+                justify='center'
+                alignItems='center'
+                style={{ width: '100vw', height: '100vh' }}
+            >
+                <Typography variant='h1'>Product not found</Typography>
+            </Grid>
+        )
+    }
 
     const impactColors = ['#79D143', '#FA993F']
 

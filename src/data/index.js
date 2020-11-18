@@ -1,8 +1,8 @@
 import juice from '../assets/images/juice.png'
 import bag from '../assets/images/bag.png'
 
-const data = [
-    {
+const data = {
+    9893833530194: {
         image: juice,
         productName: 'Fresh Mango Juice',
         price: 329,
@@ -13,8 +13,7 @@ const data = [
         co2: 0.5,
         water: 1.02,
     },
-
-    {
+    5282854042806: {
         image: bag,
         productName: 'Eco friendly bag',
         price: 100,
@@ -26,6 +25,6 @@ const data = [
         water: 220,
         per: '1000 bags',
     },
-]
+}
 
 export default data
