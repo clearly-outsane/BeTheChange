@@ -94,3 +94,19 @@
         padding: 32px;
     }
 }
+
+.absolute-center {
+    position: absolute;
+    left: 0;
+    margin: auto;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.center-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}

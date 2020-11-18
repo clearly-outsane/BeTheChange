@@ -3,16 +3,8 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 
-import { Item } from './pages'
+import { Item, Landing } from './pages'
 import { theme } from './styles'
-
-const Landing = () => {
-    return (
-        <div class='invalid-id'>
-            Please go to /:id <Link to='/1'>Example</Link>
-        </div>
-    )
-}
 
 function App() {
     return (
