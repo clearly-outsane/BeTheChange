@@ -93,6 +93,10 @@
     .nav {
         padding: 32px;
     }
+
+    .input-field {
+        display: none;
+    }
 }
 
 .absolute-center {
@@ -109,4 +113,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+.input-field {
+    width: 480px;
 }
