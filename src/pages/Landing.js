@@ -170,14 +170,19 @@ const Landing = () => {
                     ></div>
                 </div>
                 <div style={{ justifySelf: 'center', alignSelf: 'center' }}>
-                    <Typography
-                        variant='h4'
-                        align='center'
-                        style={{ fontWeight: 600, padding: 18 }}
-                    >
-                        We help you make <br />
-                        smarter shopping choices
-                    </Typography>
+                    <div style={{ paddingBottom: 48 }}>
+                        <Typography
+                            variant='h4'
+                            align='center'
+                            style={{ fontWeight: 600, padding: 18 }}
+                        >
+                            We help you make <br />
+                            smarter shopping choices
+                        </Typography>
+                        <Typography variant='body1' align='center'>
+                            Tap on the camera to begin
+                        </Typography>
+                    </div>
                 </div>
             </div>
         )
