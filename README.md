@@ -1,6 +1,9 @@
 # BeTheChange - HCI final project
 
-[Slide Deck](https://www.figma.com/proto/WfPH1HHIt8WLQYVdCoeMZe/HCI-Mini-Project?node-id=25%3A3&viewport=673%2C512%2C0.02197103574872017&scaling=min-zoom)
+-   [Slide Deck](https://www.figma.com/proto/WfPH1HHIt8WLQYVdCoeMZe/HCI-Mini-Project?node-id=25%3A3&viewport=673%2C512%2C0.02197103574872017&scaling=min-zoom)
+-   [Website](https://bethechange-hci.netlify.app/)
+    -   [Example Product 1](https://bethechange-hci.netlify.app/9893833530194)
+    -   [Example Product 2](https://bethechange-hci.netlify.app/5282854042806)
 
 #### Problem statement:
 
