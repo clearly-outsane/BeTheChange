@@ -16,8 +16,8 @@ Note - If the figma slides are too big or zoomed in , click on `options` oon the
 
 #### Done by
 
-Vinay Sateesh PES1201700346
-Prateek Agrawal PES1201700412
-Bharath B PES1201700444
+-   Vinay Sateesh PES1201700346
+-   Prateek Agrawal PES1201700412
+-   Bharath B PES1201700444
 
 Let us know if we are missing anything and we will update the repository right away!
